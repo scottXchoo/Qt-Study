@@ -1,0 +1,8 @@
+#ifndef TESLA_SPEEDOMETER_SRC_CAR_H_
+#define TESLA_SPEEDOMETER_SRC_CAR_H_
+
+class Car {
+
+};
+
+#endif //TESLA_SPEEDOMETER_SRC_CAR_H_
