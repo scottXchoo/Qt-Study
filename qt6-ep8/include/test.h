@@ -3,14 +3,13 @@
 
 #include <QObject>
 
-class Test : public QObject
-{
+class Test : public QObject {
  Q_OBJECT
  public:
   explicit Test(QObject *parent = nullptr);
-  ~Test();
+  ~Test() override;
 
-  void message(QString value = "");
+  void message(const QString &value = "");
 
  signals:
 };

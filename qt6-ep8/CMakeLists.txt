@@ -8,6 +8,8 @@ set(CMAKE_AUTOUIC ON)
 
 set(CMAKE_PREFIX_PATH "/Users/chooble/Documents/Qt/6.7.2/macos/lib/cmake")
 
+include_directories(${PROJECT_SOURCE_DIR})
+
 find_package(Qt6 COMPONENTS
 	Core
 	REQUIRED)
