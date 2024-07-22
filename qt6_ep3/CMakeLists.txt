@@ -14,7 +14,9 @@ find_package(Qt6 COMPONENTS
 	Core
 	REQUIRED)
 
-add_executable(qt6_ep3 main.cpp)
+add_executable(qt6_ep3 src/main.cpp
+	src/test.cpp
+	include/test.h)
 target_link_libraries(qt6_ep3
 	Qt::Core
 )
