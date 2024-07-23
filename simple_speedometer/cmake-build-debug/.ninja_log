@@ -1,0 +1,12 @@
+# ninja log v6
+15	111	1721668938007184882	/Users/chooble/Documents/Qt-Study/simple_speedometer/cmake-build-debug/simple_speedometer_autogen/timestamp	c722457705a9bf53
+15	111	1721668938007184882	simple_speedometer_autogen/timestamp	c722457705a9bf53
+3551	3831	1721668941543037259	simple_speedometer	eaa913058e2a279e
+15	111	1721668938007184882	simple_speedometer_autogen/mocs_compilation.cpp	c722457705a9bf53
+112	3551	1721668938103755589	CMakeFiles/simple_speedometer.dir/src/CarInfo.cpp.o	d488f94f7272e483
+22	28	1721668158609581773	clean	ad90e366ad70d77b
+2	22	1721668158590217633	CMakeFiles/clean.additional	d278321256f03ac4
+15	111	1721668938007184882	/Users/chooble/Documents/Qt-Study/simple_speedometer/cmake-build-debug/simple_speedometer_autogen/mocs_compilation.cpp	c722457705a9bf53
+1681	4714	1721668354724500304	CMakeFiles/simple_speedometer.dir/src/Car.cpp.o	12304c2189c1c653
+1680	5080	1721668354723228358	CMakeFiles/simple_speedometer.dir/simple_speedometer_autogen/mocs_compilation.cpp.o	1a4421807db6da01
+1680	5090	1721668354723885185	CMakeFiles/simple_speedometer.dir/main.cpp.o	9048abbef2b293f9

@@ -1,5 +1,5 @@
-#ifndef TESLA_SPEEDOMETER_UI_CONTROLBUTTONWIDGET_H_
-#define TESLA_SPEEDOMETER_UI_CONTROLBUTTONWIDGET_H_
+#ifndef CONTROLBUTTONWIDGET_H
+#define CONTROLBUTTONWIDGET_H
 
 #include <QWidget>
 
@@ -14,8 +14,15 @@ class ControlButtonWidget : public QWidget {
   explicit ControlButtonWidget(QWidget *parent = nullptr);
   ~ControlButtonWidget() override;
 
+ signals:
+  void accelerate();
+  void decelerate();
+  void turnLeft();
+  void turnRight();
+
  private:
   Ui::ControlButtonWidget *ui;
+
 };
 
-#endif //TESLA_SPEEDOMETER_UI_CONTROLBUTTONWIDGET_H_
+#endif // CONTROLBUTTONWIDGET_H

@@ -1,5 +1,5 @@
-#ifndef TESLA_SPEEDOMETER_UI_SPEEDOMETERWIDGET_H_
-#define TESLA_SPEEDOMETER_UI_SPEEDOMETERWIDGET_H_
+#ifndef SPEEDOMETERWIDGET_H
+#define SPEEDOMETERWIDGET_H
 
 #include <QWidget>
 
@@ -14,8 +14,12 @@ class SpeedometerWidget : public QWidget {
   explicit SpeedometerWidget(QWidget *parent = nullptr);
   ~SpeedometerWidget() override;
 
+ public slots:
+  void setSpeed(int speed);
+
  private:
   Ui::SpeedometerWidget *ui;
+
 };
 
-#endif //TESLA_SPEEDOMETER_UI_SPEEDOMETERWIDGET_H_
+#endif // SPEEDOMETERWIDGET_H

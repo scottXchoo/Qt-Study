@@ -1,8 +1,26 @@
-#ifndef TESLA_SPEEDOMETER_SRC_SPEEDOMETER_H_
-#define TESLA_SPEEDOMETER_SRC_SPEEDOMETER_H_
+#ifndef SPEEDOMETER_H
+#define SPEEDOMETER_H
 
-class Speedometer {
+#include <QWidget>
 
+#include "Car.h"
+#include "SpeedometerWidget.h"
+#include "IndicatorWidget.h"
+#include "ControlButtonWidget.h"
+
+class Speedometer : public QWidget
+{
+ Q_OBJECT
+
+ public:
+  explicit Speedometer(QWidget *parent = nullptr);
+  ~Speedometer();
+
+ private:
+  CarThread *carThread;
+  SpeedometerWidget *speedometerWidget;
+  IndicatorWidget *indicatorWidget;
+  ControlButtonWidget *controlButtonsWidget;
 };
 
-#endif //TESLA_SPEEDOMETER_SRC_SPEEDOMETER_H_
+#endif // SPEEDOMETER_H

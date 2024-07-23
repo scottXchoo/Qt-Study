@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_TeslaSpeedometerUI_FILE /Users/chooble/Documents/Qt-Study/TeslaSpeedometerUI/build/Qt_6_7_2_for_macOS-Debug/TeslaSpeedometerUI.app/Contents/MacOS/TeslaSpeedometerUI)
+set(__QT_DEPLOY_TARGET_TeslaSpeedometerUI_TYPE EXECUTABLE)

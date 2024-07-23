@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
-    <author/>
-    <comment/>
-    <exportmacro/>
     <class>IndicatorWidget</class>
     <widget class="QWidget" name="IndicatorWidget">
         <property name="geometry">
@@ -16,7 +13,23 @@
         <property name="windowTitle">
             <string>IndicatorWidget</string>
         </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <widget class="QLabel" name="leftIndicator">
+                    <property name="text">
+                        <string>Left Indicator</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLabel" name="rightIndicator">
+                    <property name="text">
+                        <string>Right Indicator</string>
+                    </property>
+                </widget>
+            </item>
+        </layout>
     </widget>
-    <pixmapfunction/>
+    <resources/>
     <connections/>
 </ui>

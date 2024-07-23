@@ -1,5 +1,5 @@
-#ifndef TESLA_SPEEDOMETER_UI_INDICATORWIDGET_H_
-#define TESLA_SPEEDOMETER_UI_INDICATORWIDGET_H_
+#ifndef INDICATORWIDGET_H
+#define INDICATORWIDGET_H
 
 #include <QWidget>
 
@@ -14,8 +14,12 @@ class IndicatorWidget : public QWidget {
   explicit IndicatorWidget(QWidget *parent = nullptr);
   ~IndicatorWidget() override;
 
+ public slots:
+  void setLeftIndicator(bool on);
+  void setRightIndicator(bool on);
+
  private:
   Ui::IndicatorWidget *ui;
 };
 
-#endif //TESLA_SPEEDOMETER_UI_INDICATORWIDGET_H_
+#endif // INDICATORWIDGET_H

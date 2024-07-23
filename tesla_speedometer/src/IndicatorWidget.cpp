@@ -1,4 +1,4 @@
-#include "include/IndicatorWidget.h"
+#include "IndicatorWidget.h"
 #include "ui_IndicatorWidget.h"
 
 IndicatorWidget::IndicatorWidget(QWidget *parent) :
@@ -8,4 +8,12 @@ IndicatorWidget::IndicatorWidget(QWidget *parent) :
 
 IndicatorWidget::~IndicatorWidget() {
   delete ui;
+}
+
+void IndicatorWidget::setLeftIndicator(bool on) {
+  ui->leftIndicator->setStyleSheet(on ? "background-color: green" : "");
+}
+
+void IndicatorWidget::setRightIndicator(bool on) {
+  ui->rightIndicator->setStyleSheet(on ? "background-color: green" : "");
 }

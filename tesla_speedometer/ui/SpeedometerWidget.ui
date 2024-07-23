@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
-    <author/>
-    <comment/>
-    <exportmacro/>
     <class>SpeedometerWidget</class>
     <widget class="QWidget" name="SpeedometerWidget">
         <property name="geometry">
@@ -16,7 +13,16 @@
         <property name="windowTitle">
             <string>SpeedometerWidget</string>
         </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <widget class="QLabel" name="speedLabel">
+                    <property name="text">
+                        <string>Speed: 0</string>
+                    </property>
+                </widget>
+            </item>
+        </layout>
     </widget>
-    <pixmapfunction/>
+    <resources/>
     <connections/>
 </ui>

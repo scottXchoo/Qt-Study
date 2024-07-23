@@ -1,4 +1,4 @@
-#include "include/SpeedometerWidget.h"
+#include "SpeedometerWidget.h"
 #include "ui_SpeedometerWidget.h"
 
 SpeedometerWidget::SpeedometerWidget(QWidget *parent) :
@@ -8,4 +8,8 @@ SpeedometerWidget::SpeedometerWidget(QWidget *parent) :
 
 SpeedometerWidget::~SpeedometerWidget() {
   delete ui;
+}
+
+void SpeedometerWidget::setSpeed(int speed) {
+  ui->speedLabel->setText(QString::number(speed));
 }

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
-    <author/>
-    <comment/>
-    <exportmacro/>
     <class>ControlButtonWidget</class>
     <widget class="QWidget" name="ControlButtonWidget">
         <property name="geometry">
@@ -16,7 +13,37 @@
         <property name="windowTitle">
             <string>ControlButtonWidget</string>
         </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <widget class="QPushButton" name="accelerateButton">
+                    <property name="text">
+                        <string>Accelerate</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QPushButton" name="decelerateButton">
+                    <property name="text">
+                        <string>Decelerate</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QPushButton" name="leftTurnButton">
+                    <property name="text">
+                        <string>Left Turn</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QPushButton" name="rightTurnButton">
+                    <property name="text">
+                        <string>Right Turn</string>
+                    </property>
+                </widget>
+            </item>
+        </layout>
     </widget>
-    <pixmapfunction/>
+    <resources/>
     <connections/>
 </ui>
